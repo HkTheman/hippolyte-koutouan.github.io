@@ -1,0 +1,141 @@
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 1rem;
+}
+
+p, input, li, article {
+
+
+  text-align: center;
+  color: white;
+
+}
+
+h1 {
+
+  text-align: center;
+  color: white;
+}
+
+h2 {
+
+  text-align: center;
+  color: white;
+}
+
+
+
+/* || header layout */
+
+nav, article, aside, footer {
+  background-color: black;
+  padding: 1%;
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+    display: flex;
+  margin-bottom: 50px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 4;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+
+nav a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 40px;
+}
+
+input {
+  font-size: 16px;
+  height: 32px;
+}
+
+input[type="search"] {
+  flex: 5;
+  color: black;
+}
+
+input[type="submit"] {
+  flex: 1.5;
+  margin-left: 10px;
+  color: black;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 6;
+}
+
+aside {
+  flex: 2;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+aside li {
+  padding-bottom: 25px;
+  color: white;
+}
+
+aside li a{
+  color:white;
+  text-align: center;
+  background-color: blue;
+}
+
+
+footer {
+  margin-top: 1px;
+}
+
+.conteneur{
+  color:white;
+  text-align: center;
+  background-color: red;
+}
+.Gallerie {
+    width: 100%;
+    height: auto;
+  }
